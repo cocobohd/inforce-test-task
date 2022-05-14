@@ -1,0 +1,29 @@
+.ays {
+  height: 60vh;
+  width: 100%;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.ays.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.ays--content {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: wheat;
+  transform: scale(0.5);
+  transition: 0.4s all;
+  width: 50vh;
+}
+.ays--content.active {
+  transform: scale(1);
+}
+

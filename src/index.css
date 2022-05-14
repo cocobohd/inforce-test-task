@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.app--general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,195,37,1) 37%, rgba(0,212,255,1) 100%);
+}
+.app {
+  padding: 0 110px 75px 110px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.sort {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sort button {
+  border: none;
+  margin: 10px;
+  width: 300px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.sort button:hover {
+  transition: 0.5s;
+  background-color: #fff;
+}

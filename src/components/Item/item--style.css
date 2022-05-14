@@ -1,0 +1,84 @@
+.item--img {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+}
+.item {
+  cursor: pointer;
+  padding-top: 25px;
+}
+.item--info {
+  background: #d4bb25;
+  border-radius: 5px 5px 0 0;
+}
+.item--btn {
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  background-color: rgb(132, 238, 155);
+  border-radius: 0 0 5px 5px;
+  font-size: 24px;
+}
+.item--btn:hover {
+  background-color: rgb(104, 187, 122);
+  transition: 0.5s;
+}
+.item--text {
+  padding: 20px;
+}
+.item--name {
+  font-size: 50px;
+  color: #fff;
+}
+.item--count {
+  padding-top: 20px;
+  line-height: 40px;
+  font-size: 24px;
+}
+.iview--btns {
+  display: flex;
+  justify-content: center;
+}
+.iview--btns button {
+  margin: 20px 20px 0 20px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.iview--btns button:hover {
+  transition: 0.5s;
+  background: #d4bb25;
+  color: white;
+}
+.iview--btns button:hover:first-child,
+.sure--btns button:hover:first-child {
+  background: greenyellow;
+}
+.iview--btns button:hover:last-child,
+.sure--btns button:hover:last-child {
+  transition: 0.5s;
+  background: red;
+  color: white;
+}
+
+.item--choose {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.item--characteristic {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.sure--btns {
+  display: flex;
+  justify-content: center;
+}
+.sure--btns button {
+  margin: 0 10px;
+  width: 50px;
+}
